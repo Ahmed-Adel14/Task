@@ -39,31 +39,51 @@ function Steps() {
             <div className="w-222.5 h-35 mx-auto mt-20">
                 <Image src="/image/1000.png" alt="banner" width={890} height={140} className="" />
             </div>
-            <div className="text-[40px] text-center  text-[#2B1F51]">اكثر من مليون قالب جاهز للتصميم</div>
-            <div className="text-center w-164.75 mx-auto mt-4 ">
-                احصل على لوحة تحكم ووردبريس مزوّدة بقوالب وثيمات قابلة للتخصيص بالكامل وإضافات سهلة التثبيت، مما يمنحك الحرية الكاملة للتحكم في مظهر موقعك ووظائفه.
-            </div>
-            <div className="w-275.75 h-44.25 mx-auto mt-10 flex justify-between">
-                <div className="w-60.25 h-full rounded-[10px] bg-[#D9D9D9]"></div>
-                <div className="w-60.25 h-full rounded-[10px] bg-[#D9D9D9]"></div>
-                <div className="w-60.25 h-full rounded-[10px] bg-[#D9D9D9]"></div>
-                <div className="w-60.25 h-full rounded-[10px] bg-[#D9D9D9]"></div>
-            </div>
-            <div className="w-31 mx-auto cursor-pointer hover:bg-[#2B1F51] hover:text-white mt-10 flex justify-center items-center h-[40px] rounded-[10px] text-center text-[#2B1F51] border border-[#2B1F51]">
-                عرض المزيد
-            </div>
-            <div className="relative w-275.75 h-90 mx-auto my-20">
-                <Image src="/image/3.png" alt="banner" fill className=" rounded-[10px]" />
-                <div className="absolute inset-0 flex flex-col justify-center items-center  text-center mt-15">
-                    <div className="text-[31px] font-semibold text-white">هل لديك موقع ووردبريس فى شركة اخرى ؟</div>
+          <div className="px-4">
 
-                    <div className="text-[31px] text-white">نقدم خدمة النقل مجانا</div>
+    <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-[#2B1F51] font-bold">
+        اكثر من مليون قالب جاهز للتصميم
+    </div>
 
-                    <div className="w-24.5 cursor-pointer hover:bg-[#2B1F51] hover:text-white bg-[#FFFFFF] text-[#333C5E] flex justify-center items-center h-[43px] rounded-[10px] text-center mt-3">
-                        اطلب الان
-                    </div>
-                </div>
+    <div className="text-center max-w-3xl mx-auto mt-4 text-sm sm:text-base text-gray-600">
+        احصل على لوحة تحكم ووردبريس مزوّدة بقوالب وثيمات قابلة للتخصيص بالكامل وإضافات سهلة التثبيت، مما يمنحك الحرية الكاملة للتحكم في مظهر موقعك ووظائفه.
+    </div>
+
+    <div className="max-w-6xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="h-44 rounded-[10px] bg-[#D9D9D9]"></div>
+        <div className="h-44 rounded-[10px] bg-[#D9D9D9]"></div>
+        <div className="h-44 rounded-[10px] bg-[#D9D9D9]"></div>
+        <div className="h-44 rounded-[10px] bg-[#D9D9D9]"></div>
+    </div>
+
+    <div className="w-fit px-6 mx-auto cursor-pointer hover:bg-[#2B1F51] hover:text-white mt-10 flex justify-center items-center h-[40px] rounded-[10px] text-[#2B1F51] border border-[#2B1F51] transition">
+        عرض المزيد
+    </div>
+
+    <div className="relative max-w-6xl h-[250px] sm:h-[350px] md:h-[400px] mx-auto my-20">
+        <Image
+            src="/image/3.png"
+            alt="banner"
+            fill
+            className="rounded-[10px] object-cover"
+        />
+
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
+            <div className="text-lg sm:text-2xl md:text-3xl font-semibold text-white mt-8">
+                هل لديك موقع ووردبريس فى شركة اخرى ؟
             </div>
+
+            <div className="text-lg sm:text-2xl md:text-3xl text-white">
+                نقدم خدمة النقل مجانا
+            </div>
+
+            <div className="w-fit px-6 cursor-pointer hover:bg-[#2B1F51] hover:text-white bg-white text-[#333C5E] flex justify-center items-center h-[43px] rounded-[10px] mt-4 transition">
+                اطلب الان
+            </div>
+        </div>
+    </div>
+
+</div>
         </div>
     );
 }
