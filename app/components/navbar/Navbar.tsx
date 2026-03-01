@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-function page() {
+function Navbar() {
     return (
         <div>
             <div className=" w-[1440px] h-[85px] mx-auto flex justify-between mt-2.5">
@@ -47,4 +47,4 @@ function page() {
     );
 }
 
-export default page;
+export default Navbar;

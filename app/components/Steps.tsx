@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { CiCircleCheck } from "react-icons/ci";
 
-function page() {
+function Steps() {
     return (
         <div>
             <div className="w-297 h-86.25 mx-auto flex items-center mt-15">
@@ -66,4 +66,4 @@ function page() {
     );
 }
 
-export default page;
+export default Steps;

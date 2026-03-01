@@ -1,6 +1,6 @@
 import React from "react";
 
-function page() {
+function Plans() {
     const topColors = ["#FBE06B", "#C6CDE0", "#69A0E0"];
     return (
         <div>
@@ -64,4 +64,4 @@ function page() {
     );
 }
 
-export default page;
+export default Plans;
