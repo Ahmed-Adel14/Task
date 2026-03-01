@@ -3,31 +3,28 @@ import Image from "next/image";
 function Banner() {
     return (
         <>
-            <div className="flex justify-center mt-10">
-                <div className="flex flex-col items-center text-center gap-4">
-                    <div className="text-[40px] font-semibold text-[#2B1F51]">أدوات مجانية نقدمها مع جميع الخطط</div>
-                    <div className="text-[16px] text-[#2B1F51] max-w-150">
-                        نقدم لك مجموعة من الأدوات المجانية التي تساعدك في إنشاء مواقع ويب بدون تعقيدات وأكثر سرعة مثل: قوالب ووردبريس والمكونات الإضافية وأداة النسخ الاحتياطي والتحكم في دومين WordPress.
+            <div className="flex justify-center mt-10 px-4">
+                <div className="flex flex-col items-center text-center gap-4 max-w-3xl">
+                    <div className="text-2xl md:text-4xl font-semibold text-[#2B1F51]">أدوات مجانية نقدمها مع جميع الخطط</div>
+
+                    <div className="text-sm md:text-base text-[#2B1F51] md:max-w-150">
+                        نقدم لك مجموعة من الأدوات المجانية التي تساعدك في إنشاء مواقع ويب بدون تعقيدات وأكثر سرعة مثل: قوالب ووردبريس والمكونات الإضافية وأداة النسخ الاحتياطي والتحكم في دومين
+                        WordPress.
                     </div>
 
-                    <div className="w-32 h-10  bg-transparent hover:bg-[#4911f1] hover:text-white cursor-pointer text-[#092346] border border-[#092346] rounded-md flex items-center justify-center">
+                    <div className="w-32 h-10 bg-transparent hover:bg-[#4911f1] hover:text-white cursor-pointer text-[#092346] border border-[#092346] rounded-md flex items-center justify-center">
                         اطلب الان
                     </div>
                 </div>
             </div>
 
-            <div className="w-full h-[636.0037231445312px] flex flex-col  items-center text-center mt-12 bg-cover bg-center" style={{ backgroundImage: "url('/image/banner.png')" }}>
-                <div className="mt-20 flex justify-center items-center text-[40px] font-semibold text-[#2B1F51]">انطلق أسرع وسارع في نموّ عملك</div>
-                <div className="w-292 mx-auto mt-20 flex justify-between">
-                    <div className="w-92.5 h-69.25 bg-[#FFFFFF] flex flex-col gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-lg px-6 py-6">
+            <div className="w-full min-h-125 md:h-159 flex flex-col items-center text-center mt-12 bg-cover bg-center px-4" style={{ backgroundImage: "url('/image/banner.png')" }}>
+                <div className="mt-12 md:mt-20 text-2xl md:text-4xl font-semibold text-[#2B1F51]">انطلق أسرع وسارع في نموّ عملك</div>
+                <div className="w-full max-w-6xl mx-auto mt-12 md:mt-20 flex flex-col md:flex-row gap-6 md:gap-8 justify-between">
+                    <div className="w-full md:w-[45%] bg-[#FFFFFF] flex flex-col gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-lg px-6 py-6">
                         <svg width="60" height="91" viewBox="0 0 60 91" fill="none">
                             <path d="M44.8384 61.2055L34.8906 55.4594V17.8396L44.8384 23.5856V61.2055Z" fill="#345BE4" />
-                            <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M35.3917 55.1728L44.3497 60.3461V23.8739L35.3917 18.7006V55.1728ZM44.8385 61.7031C44.7551 61.7029 44.6734 61.6796 44.6024 61.6359L34.6387 55.8893C34.5649 55.8448 34.5042 55.7816 34.4628 55.7062C34.4213 55.6307 34.4005 55.5456 34.4026 55.4595V17.8405C34.4 17.7538 34.4205 17.6679 34.462 17.5917C34.5035 17.5156 34.5644 17.4518 34.6387 17.4071C34.715 17.3635 34.8013 17.3406 34.8892 17.3406C34.977 17.3406 35.0634 17.3635 35.1397 17.4071L45.0912 23.1531C45.1663 23.1969 45.2288 23.2596 45.2724 23.335C45.3159 23.4103 45.3391 23.4957 45.3395 23.5828V61.2026C45.3392 61.2902 45.3162 61.3761 45.2726 61.4521C45.2291 61.5281 45.1665 61.5914 45.0912 61.6359C45.0132 61.6774 44.9267 61.7009 44.8385 61.7031Z"
-                                fill="#345BE4"
-                            />
+                           
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M44.8384 23.5863L34.8906 17.8404L44.9092 12.0518L54.857 17.7977L44.8384 23.5863Z" fill="#D3E5FB" />
                             <path
                                 fill-rule="evenodd"
@@ -117,7 +114,7 @@ function Banner() {
 
                         <div className="text-[14px] text-black leading-relaxed">قم بعرض وإنشاء وتحرير بالإضافة إلى حذف نسخ ووردبريس المثبتة باستخدام قائمة بسيطة من النماذج بنقرة واحدة</div>
                     </div>
-                    <div className="w-92.5 h-69.25 bg-[#FFFFFF] flex flex-col gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-lg px-6 py-6">
+                    <div className="w-full md:w-[45%] bg-[#FFFFFF] flex flex-col gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-lg px-6 py-6">
                         <svg width="73" height="91" viewBox="0 0 73 91" fill="none">
                             <path
                                 fill-rule="evenodd"
@@ -181,7 +178,7 @@ function Banner() {
 
                         <div className="text-[14px] text-black leading-relaxed">نوفر لك امكانية تثبيت المكونات الإضافية على ووردبريس وإدارتها دون الحاجة لمغادرة لوحة تحكم المستخدم الخاصة بك.</div>
                     </div>
-                    <div className="w-92.5 h-69.25 bg-[#FFFFFF] flex flex-col gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-lg px-6 py-6">
+                    <div className="w-full md:w-[45%] bg-[#FFFFFF] flex flex-col gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-lg px-6 py-6">
                         <svg width="72" height="91" viewBox="0 0 72 91" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M65.4575 36.6045V42.661L45.2422 49.0484V42.9882L65.4575 36.6045Z" fill="#D3E5FB" />
                             <path

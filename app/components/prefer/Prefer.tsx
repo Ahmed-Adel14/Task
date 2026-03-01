@@ -3,9 +3,9 @@ import React from 'react'
 function Prefer() {
     return (
         <div>
-            <div className=" mb-3 text-center text-[40px] font-bold text-[#2B1F51] mt-15">ما الذي يميز</div>
-            <div className="w-292 mx-auto mt-20 flex flex-wrap gap-10">
-                <div className="w-90 h-60 bg-[#FFFFFF] flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl px-6 py-6">
+            <div className=" mb-3 text-center text-3xl md:text-[40px] font-bold text-[#2B1F51] mt-15">ما الذي يميز</div>
+            <div className="w-full max-w-[1200px] mx-auto mt-10 flex flex-wrap gap-6 justify-center">
+                <div className="w-full sm:w-[45%] md:w-[30%] lg:w-[28%] h-auto bg-white flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl p-6">
                     <svg width="65" height="75" viewBox="0 0 65 75" fill="none">
                         <g mask="url(#mask0_9_42913)">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M47.7782 13.8728L36.5685 7.44531L33.2031 7.77926L44.417 14.2026L47.7782 13.8728Z" fill="#035BE8" />
@@ -22,13 +22,7 @@ function Prefer() {
                                 d="M23.7423 6.57581L33.8219 12.356L41.2611 8.09506L31.1773 2.31489L23.7423 6.57581ZM33.8219 13.5619C33.7201 13.5619 33.6245 13.533 33.5373 13.4856L22.3276 7.0623C22.1489 6.96129 22.043 6.77576 22.043 6.57581C22.043 6.37585 22.1489 6.19033 22.3276 6.08932L30.8969 1.18318C31.0651 1.08217 31.2812 1.08217 31.4536 1.18318L42.6695 7.60651C42.8482 7.70752 42.9542 7.89304 42.9542 8.093C42.9542 8.29295 42.8482 8.47436 42.6695 8.57537L34.1002 13.4856C34.013 13.533 33.9174 13.5619 33.8219 13.5619Z"
                                 fill="#035BE8"
                             />
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M33.8213 12.9995L22.6075 6.57617L20.582 15.0052L31.7979 21.4327L33.8213 12.9995Z" fill="#035BE8" />
-                            <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M21.2336 14.7324L31.4232 20.5683L33.1745 13.2771L22.9827 7.43507L21.2336 14.7324ZM31.7992 21.9906C31.7037 21.9906 31.6019 21.9659 31.5146 21.9185L20.2987 15.491C20.0827 15.3715 19.9726 15.12 20.0349 14.8747L22.0604 6.44766C22.104 6.27656 22.2245 6.13226 22.3865 6.06218C22.5444 5.99621 22.7376 6.00446 22.8913 6.09104L34.101 12.5185C34.3171 12.6422 34.4272 12.8916 34.3711 13.1287L32.3477 21.5619C32.3041 21.733 32.1836 21.8773 32.0257 21.9494C31.953 21.9783 31.8761 21.9927 31.7992 21.9927V21.9906Z"
-                                fill="#035BE8"
-                            />
+
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M31.8001 21.4323L20.5842 15.0049L17.2188 18.5319L28.4326 24.9553L31.8001 21.4323Z" fill="#EFF3FA" />
                             <path
                                 fill-rule="evenodd"
@@ -157,16 +151,10 @@ function Prefer() {
                         تعمل شبكة توصيل المحتوى (CDN) الخاصة بنا على تحسين سرعة تحميل الصفحة وتقليل أحمال الخادم بنسبة 80٪ في المتوسط ​​لتحسين أداء موقعك. .
                     </div>
                 </div>
-                <div className="w-90 h-60 bg-[#FFFFFF] flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl px-6 py-6">
+                <div className="w-full sm:w-[45%] md:w-[30%] lg:w-[28%] h-auto bg-white flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl p-6">
                     <svg width="74" height="75" viewBox="0 0 74 75" fill="none">
                         <g clip-path="url(#clip0_9_42998)">
                             <g mask="url(#mask0_9_42998)">
-                                <path
-                                    fill-rule="evenodd"
-                                    clip-rule="evenodd"
-                                    d="M40.8383 9.38272C49.843 4.2191 57.9947 3.7341 63.8816 7.12913C69.7853 10.52 73.4325 17.7909 73.4325 28.1348C73.4325 29.1466 73.3821 30.2337 73.3149 31.279C73.1048 34.2224 71.9787 37.3624 70.2811 40.1261C68.6087 42.8898 66.3481 45.2646 63.8942 46.6737L53.6793 52.5355C52.3095 55.2825 50.5951 57.9082 48.658 60.2245C46.3176 63.0425 43.6367 65.409 40.8172 67.0271C37.9935 68.6494 35.3127 69.3518 32.9765 69.2305C31.0352 69.1344 29.3292 68.4654 27.972 67.2905L17.7571 73.1524C15.2906 74.5614 13.0426 74.7746 11.3534 73.9551C9.66001 73.1315 8.5465 71.2792 8.3364 68.5741C8.27338 67.6083 8.21875 66.5672 8.21875 65.5554C8.23976 55.2114 11.887 43.7553 17.7907 33.5911C23.6818 23.4228 31.8419 14.5505 40.8298 9.38691L40.8383 9.38272Z"
-                                    fill="#EFF3FA"
-                                />
                                 <path
                                     fill-rule="evenodd"
                                     clip-rule="evenodd"
@@ -249,7 +237,7 @@ function Prefer() {
                     </div>
                 </div>
 
-                <div className="w-90 h-60 bg-[#FFFFFF] flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl px-6 py-6">
+                <div className="w-full sm:w-[45%] md:w-[30%] lg:w-[28%] h-auto bg-white flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl p-6">
                     <svg width="57" height="78" viewBox="0 0 57 78" fill="none">
                         <g clip-path="url(#clip0_9_43053)">
                             <path
@@ -270,7 +258,12 @@ function Prefer() {
                                 d="M7.96749 34.6293C8.09649 39.0403 8.11148 43.1152 8.11148 47.0522C8.16548 60.5272 8.18049 70.2583 13.3715 74.1163C16.8285 76.6693 22.5714 76.6353 31.4304 73.9923C55.2244 53.6413 55.2734 41.3763 55.3574 19.1333C55.3724 15.1813 55.3875 11.0913 55.5205 6.5233C55.5541 6.29766 55.5211 6.06711 55.4256 5.85997C55.33 5.65282 55.176 5.4781 54.9824 5.35728C52.4384 3.87028 42.2485 7.72329 30.7095 14.5393C17.4095 22.4033 7.83447 30.8493 7.96847 34.6283L7.96749 34.6293ZM20.2375 77.1583C17.5566 77.2961 14.9043 76.5537 12.6845 75.0443C7.03347 70.8443 6.99947 60.8682 6.95047 47.0572C6.95047 43.1252 6.93546 39.0573 6.80246 34.6643C6.63946 29.6903 18.4025 20.4642 30.1215 13.5422C39.5755 7.95622 51.8995 2.20127 55.5695 4.36027C55.9432 4.58535 56.246 4.91099 56.4433 5.30003C56.6407 5.68906 56.7246 6.12581 56.6855 6.56028C56.5325 11.1143 56.5325 15.1942 56.5175 19.1412C56.4385 41.7542 56.3895 54.2172 32.1015 74.9582C32.0359 75.0053 31.9642 75.0433 31.8885 75.0713C28.1233 76.3158 24.2004 77.0178 20.2375 77.1583Z"
                                 fill="#035BE8"
                             />
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M31.7279 43.1411L31.7129 74.5121H31.7279C51.9509 57.2431 55.2279 45.7881 55.7979 29.2461L31.7279 43.1411Z" fill="#EFF3FA" />
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M31.7279 43.1411L31.7129 74.5121H31.7279C51.9509 57.2431 55.2279 45.7881 55.7979 29.2461L31.7279 43.1411Z"
+                                fill="#EFF3FA"
+                            />
                             <path
                                 fill-rule="evenodd"
                                 clip-rule="evenodd"
@@ -339,7 +332,7 @@ function Prefer() {
                         قم بحماية موقعك من البرامج الضارة ومنع محاولات الاختراق وهجمات استغلال الثغرات Zero-Day وهجمات تخمين كلمة المرور Brute Force.
                     </div>
                 </div>
-                <div className="w-90 h-60 bg-[#FFFFFF] flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl px-6 py-6">
+                <div className="w-full sm:w-[45%] md:w-[30%] lg:w-[28%] h-auto bg-white flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl p-6">
                     <svg width="36" height="75" viewBox="0 0 36 75" fill="none">
                         <g clip-path="url(#clip0_9_43105)">
                             <g mask="url(#mask0_9_43105)">
@@ -399,7 +392,7 @@ function Prefer() {
                         قم بحماية موقعك من البرامج الضارة ومنع محاولات الاختراق وهجمات استغلال الثغرات Zero-Day وهجمات تخمين كلمة المرور Brute Force.
                     </div>
                 </div>
-                <div className="w-90 h-60 bg-[#FFFFFF] flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl px-6 py-6">
+                <div className="w-full sm:w-[45%] md:w-[30%] lg:w-[28%] h-auto bg-white flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl p-6">
                     <svg width="78" height="74" viewBox="0 0 78 74" fill="none">
                         <g mask="url(#mask0_9_43169)">
                             <path
@@ -497,7 +490,7 @@ function Prefer() {
                         قم بحماية موقعك من البرامج الضارة ومنع محاولات الاختراق وهجمات استغلال الثغرات Zero-Day وهجمات تخمين كلمة المرور Brute Force.
                     </div>
                 </div>
-                <div className="w-90 h-60 bg-[#FFFFFF] flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl px-6 py-6">
+                <div className="w-full sm:w-[45%] md:w-[30%] lg:w-[28%] h-auto bg-white flex flex-col hover:shadow-xl hover:-translate-y-2 transition-all duration-300 gap-5 items-end text-right shadow-[0_4px_16px_0_rgba(0,0,0,0.1)] rounded-2xl p-6">
                     <svg width="65" height="88" viewBox="0 0 65 88" fill="none">
                         <g clip-path="url(#clip0_9_43225)">
                             <g mask="url(#mask0_9_43225)">

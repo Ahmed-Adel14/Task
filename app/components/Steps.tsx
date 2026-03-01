@@ -49,7 +49,7 @@ function Steps() {
                 <div className="w-60.25 h-full rounded-[10px] bg-[#D9D9D9]"></div>
                 <div className="w-60.25 h-full rounded-[10px] bg-[#D9D9D9]"></div>
             </div>
-            <div className="w-[124px] mx-auto cursor-pointer hover:bg-[#2B1F51] hover:text-white mt-10 flex justify-center items-center h-[40px] rounded-[10px] text-center text-[#2B1F51] border border-[#2B1F51]">
+            <div className="w-31 mx-auto cursor-pointer hover:bg-[#2B1F51] hover:text-white mt-10 flex justify-center items-center h-[40px] rounded-[10px] text-center text-[#2B1F51] border border-[#2B1F51]">
                 عرض المزيد
             </div>
             <div className="relative w-275.75 h-90 mx-auto my-20">
@@ -59,7 +59,9 @@ function Steps() {
 
                     <div className="text-[31px] text-white">نقدم خدمة النقل مجانا</div>
 
-                    <div className="w-24.5 cursor-pointer hover:bg-[#2B1F51] hover:text-white bg-[#FFFFFF] text-[#333C5E] flex justify-center items-center h-[43px] rounded-[10px] text-center mt-3">اطلب الان</div>
+                    <div className="w-24.5 cursor-pointer hover:bg-[#2B1F51] hover:text-white bg-[#FFFFFF] text-[#333C5E] flex justify-center items-center h-[43px] rounded-[10px] text-center mt-3">
+                        اطلب الان
+                    </div>
                 </div>
             </div>
         </div>
